@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAVID JOHN</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color:black;
+        }
+        body{
+            background-color: rgb(235, 152, 28);
+            font-family:Verdana, sans-serif, Geneva, Tahoma;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            padding: 20px;
+        }
+        header>h1{
+            margin: 10px;
+            text-align: center;
+            font-size: 23px;
+        
+        }
+        header>hr{
+            border-color: black;
+        }
+        main{
+            display: block;
+            padding: 2rem 1.5rem;
+        }
+        main > section{
+            margin-bottom: 40px;
+        }
+        main > section#image-section{
+            width: 100%;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        /* 
+        style image here
+         */
+         main > section#info{
+             width: 100%;
+             padding: 15px;
+             border: 1px blue;
+             border-radius: 6px;
+             background-color:rgb(235, 152, 28);
+             box-shadow: rgb(148, 155, 148);
+         }
+         main > section#info >h2{
+             margin: 10px;
+             margin-bottom: 15px;
+             text-align: center;
+         }
+         main > section#info >p{
+             margin-bottom: 10px;
+         }
+         main > section#info >div{
+             width: 40%;
+             margin: 20px auto;
+         }
+         main > section#info >a{
+             width: 100%;
+            
+         }
+         main > section#info button{
+             width: 100%;
+             height: 50px;
+             border: 0px;
+             border-radius: 5px;
+             background-color: gold;
+             font-weight: 600;
+             font-size: 12pt;
+             transition-duration: 50ms;
+         }
+         main > section#info button:hover{
+             cursor: pointer;
+             color: white;
+             box-shadow: green;
+         }
+         footer{
+             margin: 30px 50px 20px 50px;
+             padding: 20px;
+             background-color:grey;
+         }
+         footer p{
+             text-align: center;
+             color: indigo;
+             font-size: 11pt;
+         }
+         /* media queries */
+         @media(min-width: 768px){
+             header{
+                 height: 15vh;
+                 background-color: white;
+             }
+             header > h1{
+                 text-align: left;
+             }
+             main{
+                 width: 100%;
+                 display: flex;
+                 justify-content: space-between;
+                 padding: 0;
+             }
+             main > section#image-section{
+                 width: 50%;
+             }
+             main > section#info{
+                 width: 50%;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+             }
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>David John</b></h1>
+        <hr>
+    </header>
+    <main>
+        <section id="image-section">
+            <img src="me.jpg" alt="make.jpj"
+            title="David John" width="100%" height="atuo">
+        </section>
+        <section id="info">
+            <h2>About me</h2>
+            <p>Hey! i'm David John, but my friends call me <b><q>EZED</q></b>, therefore you can call me EZED. I am a guy that believe in positivity.
+            From the way technology is evolving, and almost everything is digitalized, my love for technology increased.<br>
+                This lead in taking interest in web design, i love coding, and front end developing aspect of web designing.</p>
+                <br><p>I love learnig and trying new things, i also love seeing my fellow men; doing great things and exploring the world of technology, there are lot of male developers and coders out there who motivate me, and i'm telling them to keep it up to keep inspiring us.</p><br>
+                <p>I would like to connect with you on social medial, link me up on any of my social medial handles.</p>
+                <div>
+                    <a href="facebook:David John Udeh Chibueze">facebook</a><br>
+                     <a href="whatsapp:08068638250">whatsapp</a><br>
+                        <a href="instragram:ezedreacherbiz">instragram</a><br>
+                    <a href="mail:davidudeh190@gmail.com" subject="i would like to meet you">mail me</a><br>
+                        <button>Get in touch</button>
+                    </div>    
+        </section>
+    </main>
+    <footer>
+        <p>David Chibueze Copyright &copy; 2020 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
